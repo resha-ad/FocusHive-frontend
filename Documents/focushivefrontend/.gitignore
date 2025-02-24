@@ -85,3 +85,4 @@ focus-hive/
 *.rar
 " >> .gitignore
 
+echo ".vscode/extensions/" >> ~/.gitignore_global
