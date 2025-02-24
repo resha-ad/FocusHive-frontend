@@ -22,3 +22,66 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+echo ".vscode/" >> .gitignore
+echo "Documents/Penny Patrols App/" >> .gitignore
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
+echo "*.pyc" >> .gitignore
+
+
+echo "
+# Ignore system and personal files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.lock
+*.swp
+desktop.ini
+ntuser.dat*
+OneDrive/
+Downloads/
+Music/
+Pictures/
+Videos/
+Saved Games/
+Searches/
+
+# Ignore VS Code settings and extensions
+.vscode/
+
+# Ignore Node.js dependencies
+node_modules/
+package-lock.json
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore database files
+*.db
+*.vpp
+*.sqlite
+totals.json
+
+# Ignore backup files
+*.bak_*
+~$*
+*.webm
+
+# Ignore unnecessary project directories
+Backend-gatherly/
+Penny Patrols App/
+FocusHiveERD.vpp*
+Gatherly/
+react/
+focus-hive/
+
+# Ignore zip and temp files
+*.zip
+*.tar.gz
+*.rar
+" >> .gitignore
+
